@@ -8,6 +8,7 @@
     :src="home.images[0]"    
   />
   <div class="app-house-body">
+  <img src="/images/icons/heart.svg" class="app-fav"/>
     <h2>{{ home.title }}</h2>  
     <div class="app-address">
       {{ home.location.address }} {{ home.location.city }} {{ home.location.state }}        
